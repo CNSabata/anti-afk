@@ -12,3 +12,4 @@ def get_idle_duration():
     windll.user32.GetLastInputInfo(byref(lastInputInfo))
     millis = windll.kernel32.GetTickCount() - lastInputInfo.dwTime
     return millis / 1000.0
+    # TODO : Fix code here to not take into account inputs sent by python
