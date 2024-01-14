@@ -1,0 +1,14 @@
+### Build/python files ###
+**/__pycache__/
+**/build/
+**/venv/
+*.spec
+
+### PyCharm ###
+**/.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+**/.vscode/
